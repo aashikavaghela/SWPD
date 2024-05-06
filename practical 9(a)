@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Student Registration</title>
+  
+
+  <fieldset>
+    <h1>
+    <legend>Student Registration form </legend>
+      </h1>
+    <label for="fname">Full Name:</label>
+    <input type="text" id="fname" name="fullname"><br><br>
+    
+    <label for="contact">Student Contact No:</label>
+    <input type="tel" id="contact" name="studentcontact"><br><br>
+    
+    <label for="pcontact">Parents Contact No:</label>
+    <input type="tel" id="pcontact" name="parentcontact"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="gender">Gender:</label>
+     <input type="radio" id="male" name="gender" value="male"> Male
+     <input type="radio" id="female" name="gender" value="female"> Female
+     <input type="radio" id="other" name="gender" value="other"> Other<br><br>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+    
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="bloodGroup">Blood Group:</label><br>
+      <select id="bloodGroup" name="bloodGroup" required>
+           <option value="A+">A+</option>
+           <option value="A-">A-</option>
+           <option value="B+">B+</option>
+           <option value="B-">B-</option>
+           <option value="O+">O+</option>
+           <option value="O-">O-</option>
+      </select><br><br>
+    
+    <label for="branch">Branch</label><br>
+     <select id="branch" name="branch" required>
+           <option value="Computer">Computer</option>
+           <option value="Electrical">Electrical</option>
+           <option value="Michanical">Michanical</option>
+           <option value="Civil">Civil</option>
+           <option value="IT">IT</option>
+           <option value="IC">IC</option>
+      </select><br><br>
+  
+    <label for="hobbies">Hobbies:</label><br>
+       <input type="checkbox" id="reading" name="hobbies" value="reading"> Reading
+       <input type="checkbox" id="sports" name="hobbies" value="sports"> Sports
+       <input type="checkbox" id="Drawing" name="hobbies" value="Drawing"> Drawing
+       <input type="checkbox" id="music" name="hobbies" value="music"> Music
+       <input type="checkbox" id="cooking" name="hobbies" value="cooking"> cooking
+       <input type="checkbox" id="travelling" name="hobbies" value="travelling"> Travelling<br><br>
+     
+    <button type="submit">submit</button>
+    
+  </fieldset>
+  </form>
+
+</body>
+</html>
